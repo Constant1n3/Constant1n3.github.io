@@ -1,29 +1,31 @@
 html{
-	background-color: lightgreen;
+	background-color: rgb(0, 0, 0);
 }
 body{
-	font-family: 'Kavivanar', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	
-	color: #ab0000;
-	text-shadow: 2px 3px 1px grey;
-	width: 990px;
-	  margin: 0 auto;
+
+	color: #4013bd;
+	text-shadow: 1px 1px 2px rgba(108, 155, 199, 0.39);
+	
+	width: auto;
+	  margin: 1%;
 	  padding: 0 20px 20px 20px;
-	  border: 5px solid black;
-	  text-align: center;
+	  border: 1px solid rgb(35, 112, 131);
+	  /* text-align: center; */
 }	  
+
+
 #Ar{
 	text-align: left;
 
 }
-#Bp{
-	text-align: right;
-}
 #Dg{
 	text-align: right;
+	position: relative; right: 20px;  top: -20px;
 }
 a:hover{
-	color: black;
+	color: rgb(113, 230, 238);
 }
 h4{
 	
@@ -32,14 +34,15 @@ h4{
 	margin: 0;
  	padding: 20px 0;    
  	color: #00539F;
- 	text-shadow: 1px 2px 2px black;
+ 	/* text-shadow: 1px 2px 2px black; */
 
 }
 p:hover{
 	color:black;
 }
 h3{
-	color: black;
+	color: rgb(96, 176, 207);
+	font-style: italic;
 }
 footer{
 	text-align: center;
@@ -53,4 +56,5 @@ footer{
 img {
   display: block;
   margin: 0 auto;
+  width: 70%;
 }

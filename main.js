@@ -20,7 +20,7 @@ quizButton.onclick = function(){
 var myHeading = document.querySelector('h5');
 var editButton = document.querySelector("#eDit")
 	function eDIT(){
-		var chang = prompt('Suggest alternative for the text below the image');
+		var chang = prompt('Suggest text for the image');
 		
 		myHeading.textContent = chang;
 
