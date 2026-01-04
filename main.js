@@ -35,8 +35,12 @@ var myImage = document.querySelector('img');
 myImage.onclick = function() {
     var mySrc = myImage.getAttribute('src');
     if(mySrc === 'dawn.jpeg') {
-      myImage.setAttribute ('src','macro-leaf.jpeg');
+      myImage.setAttribute ('src','pattern.JPG');
     } else if(mySrc === 'macro-leaf.jpeg') {
+      myImage.setAttribute ('src','bg-leaf.jpeg');
+    } else if(mySrc === 'pattern.JPG'){
+		myImage.setAttribute ('src','macro-leaf.jpeg');
+	} else if(mySrc === 'bg-leaf.jpeg') {
       myImage.setAttribute ('src','dawn.jpeg');
     }
     

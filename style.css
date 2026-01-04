@@ -1,12 +1,17 @@
 html{
 	background-color: rgb(0, 0, 0);
+	background-image: url("bgsky.jpeg");
+	background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 body{
 	font-family: 'Montserrat', sans-serif;
 	
 
-	color: #4013bd;
-	text-shadow: 1px 1px 2px rgba(108, 155, 199, 0.39);
+	color: #5c15e0;
+	text-shadow: 1px 1px 2px rgba(115, 168, 224, 0.39);
+	text-decoration: ;
 	
 	width: auto;
 	  margin: 1%;
@@ -14,7 +19,23 @@ body{
 	  border: 1px solid rgb(35, 112, 131);
 	  /* text-align: center; */
 }	  
-
+.split {
+    height: 30vh; /* Full height */
+    width: 50%;    /* Half width */
+    position: absolute;
+    top: 0;
+    overflow-x: hidden;
+    padding: 30px;
+	background-image: url("/dawn.jpeg");
+  }
+  .left {
+    left: 0;
+    /*background-color: #f4f4f4;*/
+  }
+  .right {
+    right: 0;
+    /*background-color: #ddd;*/
+  }
 
 #Ar{
 	text-align: left;
@@ -43,6 +64,9 @@ p:hover{
 h3{
 	color: rgb(96, 176, 207);
 	font-style: italic;
+}
+#head{
+	color: indianred;
 }
 footer{
 	text-align: center;
